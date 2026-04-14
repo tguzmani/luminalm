@@ -1,1 +1,4 @@
-export interface EmbeddingInterface {}
+export interface EmbeddingResult {
+  embedding: number[];
+  index: number;
+}
